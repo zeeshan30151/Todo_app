@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="scritp.js"></script>
+</head>
+    <style>
+         .hem{
+                width: 100%;
+                height: 250px;
+                background-color: #ff0080a9 ;
+            
+            }
+            
+            /* .header {
+                background-color: #ff0080a9;
+                height: 7rem;
+                margin-top: -170px;
+                margin-left: 40px; */
+            /* } */
+            .container-1 {
+               margin-top: -3rem;
+               margin-top: 20px;
+            margin-left: 460px;
+            margin-right: 240px;
+            background-color: white;
+            }
+            .card {
+                background-color: white;
+                padding: 1.4rem;
+                border-radius: 0.6rem;
+                box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+            }
+            .input-group {
+                display: flex;
+                align-items: center;
+            }
+            .input-group input {
+                flex: 1;
+                padding: 0.4rem;
+                border: 1px solid #e2e8f0;
+                border-radius: 0.23rem;
+                margin-right: 0.3rem;
+            }
+            .input-group button {
+                background-color: #ff0080a9;
+                color: white;
+                padding: 0.6rem 1rem;
+                border-radius: 0.23rem;
+                font-weight: bold;
+            }
+            .todo-list {
+                margin-top: 2rem;
+
+            }
+            .todo-item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0.5rem 0;
+                border-bottom: 1px solid #e2e8f0;
+            }
+            .todo-item:last-child {
+                border-bottom: none;
+            }
+            .todo-item input[type="checkbox"] {
+                margin-right: 0.4rem;
+            }
+            .todo-item button {
+                color: #ff0080a9;
+                margin-left: 0.4rem;
+            }
+        
+    </style>
+
+<body class="">
+    <div class="hem">
+
+    </div>
+   <!-- <div class=""> -->
+       <!-- <div class="header"> -->
+        <div class="container-1">
+            <div class="card">
+                <div class="mb-4">
+                    <label for="new-todo" class="">New Todo:</label>
+                    <div class="input-group">
+                        <input id="new-todo" type="text" placeholder="">
+                        <button onclick="addTodo()">Add</button>
+
+                    </div>
+                </div>
+                <div class="mb-4">
+                      <label for="edit-todo" class="">Edit:</label>
+                      <div class="input-group">
+                        <input id="edit-todo" type="text" value="Mow the lawn">
+                        <button onclick="save-todo()">Save</button>
+                     </div>
+                </div>
+                <ul id="todo-list" class="todo-list">
+                    <li class="todo-item">
+                        <div class="flex items-center">
+                           
+                        </div>
+                        <!-- <div class="flex items-center">
+                            <button onclick="editTodo(this)"><i class="fas fa-edit"></i></button>
+                            <button onclick="deleteTodo(this)"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </li> -->
+                    <!-- <li class="todo-item">
+        
+                        <div class="flex items-center">
+                            <button onclick="editTodo(this)"><i class="fas fa-edit"></i></button>
+                            <button onclick="deleteTodo(this)"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </li> -->
+                    <!-- <li class="todo-item">
+                        <div class="flex items-center">
+                            <button onclick="editTodo(this)"><i class="fas fa-edit"></i></button>
+                            <button onclick="deleteTodo(this)"><i class="fas fa-trash"></i></button>
+                        </div> -->
+                      </li>
+                </ul>
+            </div>
+        </div>
+       <!-- </div> -->
+    </div>
+   
+</body>
+</html>
